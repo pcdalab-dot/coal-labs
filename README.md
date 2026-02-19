@@ -1,6 +1,6 @@
 # COAL Lab 03 - Verilog Modules and Testbenches
 
-This folder contains Verilog source files and testbenches for various digital design modules, including counters, adders, register files, and data memory. Each module is accompanied by a testbench for simulation and waveform analysis.
+This directory contains Verilog source files and testbenches for various digital design modules, including counters, adders, register files, and data memory. Each module is accompanied by a testbench for simulation and waveform analysis.
 
 ## File Structure
 - `L4T1.v`, `L4T1_tb.v`: Up Counter (32-bit) and its testbench
@@ -9,6 +9,7 @@ This folder contains Verilog source files and testbenches for various digital de
 - `L5T1.v`, `L5T1_tb.v`: Register File and its testbench
 - `L5T2.v`, `L5T2_tb.v`: Data Memory and its testbench
 - `L6T1.v`, `L6T1_tb.v`: Additional module and testbench (if present)
+- `lab03_2024335/`, `lab03_2024xxx/`: Subfolders for student/lab submissions, each containing their own Verilog files and testbenches
 
 ## How to Simulate
 1. **Compile the design and testbench:**
@@ -37,6 +38,10 @@ This folder contains Verilog source files and testbenches for various digital de
   sudo apt install iverilog gtkwave
   ```
 - Edit or extend the testbenches as needed for your experiments.
+- To move all `.v` files into a subfolder (e.g., `lab03_2024335`), use:
+  ```bash
+  mv *.v lab03_2024335/
+  ```
 
 ---
 
