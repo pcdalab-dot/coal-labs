@@ -1,0 +1,29 @@
+Implement an 8-bit floating point addition circuit which takes as input
+two 8-bit floating point numbers and outputs their sum which is also 
+an 8-bit floating point number. 
+
+For this exercise you don't need to handle special cases, i.e., overflows,
+underflows, zero, non-normalized numbers, +/- inifinities, NaNs, etc. 
+Don't care about the round-up as well; discard the extra bits to the right
+if any. Just assume that you'll get two normalized floating point numbers
+and their normalized sum will also be in range.
+ 
+Assume that your 8-bit floating point representation uses:
+- The msb b[7] for sign bit
+- Next 4 bits b[6:3] for exponent stored in biased format
+  (guess range, precision, and the value of the bias yourself)
+  The exponents 0x0 and 0xF are reserved.
+- The last 3 lsbs b[0:2] for mantissa.
+
+Remember, there's an implicit 1 to the left of binary point.
+
+
+You may take help from internet but you should be able to explain every line
+of code you submit. 
+
+Make some test cases to check your implementation.
+-  2.75 + -4 (0 1000 011 + 1 1001 000)
+-  5.5 + 44 (0 1001 011 + 0 1100 011)
+-  2.25 + 2.5 (0 1000 001 + 0 1000 010)
+
+Make a couple of other test cases as well.

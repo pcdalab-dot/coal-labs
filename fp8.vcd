@@ -1,0 +1,104 @@
+$date
+	Fri Mar  6 09:28:28 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fp8_adder_tb $end
+$var wire 8 ! sum [7:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$scope module uut $end
+$var wire 8 $ a [7:0] $end
+$var wire 8 % b [7:0] $end
+$var wire 8 & sum [7:0] $end
+$var wire 1 ' signB $end
+$var wire 1 ( signA $end
+$var wire 4 ) mantB [3:0] $end
+$var wire 4 * mantA [3:0] $end
+$var wire 4 + expB [3:0] $end
+$var wire 4 , expA [3:0] $end
+$var reg 4 - expR [3:0] $end
+$var reg 4 . mantA_shift [3:0] $end
+$var reg 4 / mantB_shift [3:0] $end
+$var reg 5 0 mantR [4:0] $end
+$var reg 1 1 signR $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+11
+b11 0
+b1000 /
+b101 .
+b1001 -
+b1000 ,
+b1001 +
+b1011 *
+b1000 )
+0(
+1'
+b11001011 &
+b11001000 %
+b1000011 $
+b11001000 #
+b1000011 "
+b11001011 !
+$end
+#10
+01
+b1100 0
+b1011 /
+b1 .
+b1100100 !
+b1100100 &
+b1100 -
+0'
+b1100 +
+b1011 )
+b1001 ,
+b1100011 #
+b1100011 %
+b1001011 "
+b1001011 $
+#20
+b1001 0
+b1010 /
+b1001 .
+b1001001 !
+b1001001 &
+b1001 -
+b1000 +
+b1010 )
+b1000 ,
+b1001 *
+b1000010 #
+b1000010 %
+b1000001 "
+b1000001 $
+#30
+b1100 0
+b1100 /
+b1100 .
+b1001100 !
+b1001100 &
+b1001 -
+b1100 )
+b1100 *
+b1000100 #
+b1000100 %
+b1000100 "
+b1000100 $
+#40
+b0 0
+b1000000 !
+b1000000 &
+b1000 -
+1(
+b11000100 "
+b11000100 $
+#50
